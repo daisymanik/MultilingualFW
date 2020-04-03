@@ -1,0 +1,39 @@
+ #Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects    
+     iphonex             xpath         (//img[@class='kfs-img'])[1]
+     iphone8             xpath         (//img[@class='kfs-img'])[2]
+     iphone7plus         xpath         (//img[@class='kfs-img'])[3]
+     iphone7             xpath         (//img[@class='kfs-img'])[4]
+     iphone6splus	     xpath         (//img[@class='kfs-img'])[5]
+     iphone6             xpath         (//img[@class='kfs-img'])[6]
+     iphonetext          xpath          //td[@class='kfs-title-text']
+     Producttitle        xpath          //span[@id='productTitle']
+     Addtolistbox        xpath          (//div[@class='a-box-inner'])[1]
+    
+= Page: Login page =
+  @on Testing4
+  
+       iphonex:
+          height 44px
+          width 667px
+          
+       iphone8:
+          height 44px
+          width 667px
+          
+       iphone7plus:
+          height 44px
+          width 667px
+           
+       iphone7:
+          height 44px
+          width 667px
+          
+       iphone6splus:
+          height 44px
+          width 667px          
+          
+       iphone6:
+          height 44px
+          width 667px    

@@ -1,0 +1,61 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects
+  userid_inputbox      id      userid_email-name
+  groupid_inputbox     id      group_id-name
+  side_panel_text      xpath   //div[@id='ember652']
+  scbimg			   xpath   //img[@class='logo-full show-in-large-only']
+  chckbox			   xpath   //div[@class='checkbox-container']
+  help				   id	   ember648
+  s2b                  xpath   //div[@class='straight2bank-logo show-in-large-only']
+  welcmsg			   xpath   //div[@class='xl9 m6 l6 s10 col']
+  cntctlngs            css	   #dropdown-content-ember452 li a
+  cntct				   id	   ember452
+   
+= Page: Login page =
+  @on Testing
+  
+      userid_inputbox:
+          height 44px
+          width 296px
+
+      groupid_inputbox:
+          height 44px
+          width 296px
+
+      side_panel_text:
+          height 44px
+          width 296px
+          
+      scbimg:
+          height 30 to 40px
+          width 9 to 100px
+          
+      chckbox:
+          height 10 to 90px
+          width 9 to 90px
+       
+      help:
+          height 44px
+          width 900px
+          
+      s2b:
+      	  height > 10px
+      	  width  < 150px
+      	  
+      welcmsg:
+          height 144px
+          width 402px
+          
+      cntctlngs:
+          height 44px
+          width 900px
+          
+      cntct:
+          height 44px
+          width 900px
+      
+          
+
+      
+      

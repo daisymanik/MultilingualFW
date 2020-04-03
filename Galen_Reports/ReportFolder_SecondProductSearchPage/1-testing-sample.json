@@ -1,0 +1,117 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen",
+      "status" : "info",
+      "time" : 1585827780864,
+      "includedTags" : [ "Testing5" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Login page",
+        "place" : {
+          "filePath" : "gSpec/Amazonsecondproductdescpage6.gspec",
+          "lineNumber" : 8
+        },
+        "objects" : [ {
+          "name" : "Addtolistbox",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsecondproductdescpage6.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "height 0 to 200px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Addtolistbox",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Addtolistbox",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "0 to 200px",
+              "realDistance" : "179px"
+            } ],
+            "highlight" : [ "Addtolistbox" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsecondproductdescpage6.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "width 0 to 300px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Addtolistbox",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Addtolistbox",
+                "edge" : "right"
+              },
+              "expectedDistance" : "0 to 300px",
+              "realDistance" : "273px"
+            } ],
+            "highlight" : [ "Addtolistbox" ]
+          } ]
+        }, {
+          "name" : "textheader",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsecondproductdescpage6.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "height 0 to 100px",
+            "meta" : [ {
+              "from" : {
+                "object" : "textheader",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "textheader",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "0 to 100px",
+              "realDistance" : "54px"
+            } ],
+            "highlight" : [ "textheader" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsecondproductdescpage6.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "width 500 to 600px",
+            "meta" : [ {
+              "from" : {
+                "object" : "textheader",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "textheader",
+                "edge" : "right"
+              },
+              "expectedDistance" : "500 to 600px",
+              "realDistance" : "574px"
+            } ],
+            "highlight" : [ "textheader" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "textheader" : {
+          "area" : [ 456, 299, 574, 54 ]
+        },
+        "Addtolistbox" : {
+          "area" : [ 1057, 329, 273, 179 ]
+        }
+      },
+      "screenshot" : "layout-6-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

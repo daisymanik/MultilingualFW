@@ -1,0 +1,448 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen",
+      "status" : "error",
+      "time" : 1585891741721,
+      "includedTags" : [ "Testing1" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Home page",
+        "place" : {
+          "filePath" : "./gSpec/S2BTestRun.gspec",
+          "lineNumber" : 47
+        },
+        "objects" : [ {
+          "name" : "Message",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 51
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"Message\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "near search 0 to 645px right",
+            "errors" : [ "\"Message\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 53
+            },
+            "name" : "width 109px",
+            "errors" : [ "\"Message\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "search",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 56
+            },
+            "name" : "height 40px",
+            "meta" : [ {
+              "from" : {
+                "object" : "search",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "search",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "40px",
+              "realDistance" : "40px"
+            } ],
+            "highlight" : [ "search" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 57
+            },
+            "name" : "width 350px",
+            "meta" : [ {
+              "from" : {
+                "object" : "search",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "search",
+                "edge" : "right"
+              },
+              "expectedDistance" : "350px",
+              "realDistance" : "350px"
+            } ],
+            "highlight" : [ "search" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 58
+            },
+            "name" : "near Message 0 to 5px left",
+            "errors" : [ "\"Message\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Quickpmt",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "height 295px",
+            "errors" : [ "\"Quickpmt\" height is 65px instead of 295px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "Quickpmt",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Quickpmt",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "295px",
+              "realDistance" : "65px"
+            } ],
+            "highlight" : [ "Quickpmt" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 62
+            },
+            "name" : "width 427px",
+            "errors" : [ "\"Quickpmt\" width is 470px instead of 427px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "Quickpmt",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Quickpmt",
+                "edge" : "right"
+              },
+              "expectedDistance" : "427px",
+              "realDistance" : "470px"
+            } ],
+            "highlight" : [ "Quickpmt" ]
+          } ]
+        }, {
+          "name" : "Home_button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 65
+            },
+            "name" : "height 11px",
+            "errors" : [ "\"Home_button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 66
+            },
+            "name" : "width 29px",
+            "errors" : [ "\"Home_button\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "prioritytask_frame",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 69
+            },
+            "name" : "height 117px",
+            "errors" : [ "\"prioritytask_frame\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 70
+            },
+            "name" : "width 444px",
+            "errors" : [ "\"prioritytask_frame\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "pendingtask_frame",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 73
+            },
+            "name" : "height 231px",
+            "errors" : [ "\"pendingtask_frame\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 74
+            },
+            "name" : "width 444px",
+            "errors" : [ "\"pendingtask_frame\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "proritymsg_frame",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 77
+            },
+            "name" : "height 117px",
+            "errors" : [ "\"proritymsg_frame\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 78
+            },
+            "name" : "width 444px",
+            "errors" : [ "\"proritymsg_frame\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "scale_frame",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 81
+            },
+            "name" : "height 347px",
+            "errors" : [ "\"scale_frame\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "width 444px",
+            "errors" : [ "\"scale_frame\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "advancesrch_link",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 85
+            },
+            "name" : "height 17px",
+            "errors" : [ "\"advancesrch_link\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 86
+            },
+            "name" : "width 115px",
+            "errors" : [ "\"advancesrch_link\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "back_button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 89
+            },
+            "name" : "height 12px",
+            "errors" : [ "\"back_button\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 90
+            },
+            "name" : "width 34px",
+            "errors" : [ "\"back_button\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "submit_button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "height 12px",
+            "meta" : [ {
+              "from" : {
+                "object" : "submit_button",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "submit_button",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "12px",
+              "realDistance" : "12px"
+            } ],
+            "highlight" : [ "submit_button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 94
+            },
+            "name" : "width 46px",
+            "errors" : [ "\"submit_button\" width is 45px instead of 46px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "submit_button",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "submit_button",
+                "edge" : "right"
+              },
+              "expectedDistance" : "46px",
+              "realDistance" : "45px"
+            } ],
+            "highlight" : [ "submit_button" ]
+          } ]
+        }, {
+          "name" : "cancel_button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 97
+            },
+            "name" : "width 444px",
+            "errors" : [ "\"cancel_button\" width is 49px instead of 444px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "cancel_button",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "cancel_button",
+                "edge" : "right"
+              },
+              "expectedDistance" : "444px",
+              "realDistance" : "49px"
+            } ],
+            "highlight" : [ "cancel_button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 98
+            },
+            "name" : "height 231px",
+            "errors" : [ "\"cancel_button\" height is 12px instead of 231px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "cancel_button",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "cancel_button",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "231px",
+              "realDistance" : "12px"
+            } ],
+            "highlight" : [ "cancel_button" ]
+          } ]
+        }, {
+          "name" : "import_button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 101
+            },
+            "name" : "width 444px",
+            "errors" : [ "\"import_button\" width is 46px instead of 444px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "import_button",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "import_button",
+                "edge" : "right"
+              },
+              "expectedDistance" : "444px",
+              "realDistance" : "46px"
+            } ],
+            "highlight" : [ "import_button" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 102
+            },
+            "name" : "height 231px",
+            "errors" : [ "\"import_button\" height is 12px instead of 231px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "import_button",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "import_button",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "231px",
+              "realDistance" : "12px"
+            } ],
+            "highlight" : [ "import_button" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "Quickpmt" : {
+          "area" : [ 35, 211, 470, 65 ]
+        },
+        "cancel_button" : {
+          "area" : [ 589, 830, 49, 12 ]
+        },
+        "search" : {
+          "area" : [ 746, 0, 350, 40 ]
+        },
+        "submit_button" : {
+          "area" : [ 364, 831, 45, 12 ]
+        },
+        "import_button" : {
+          "area" : [ 787, 830, 46, 12 ]
+        }
+      },
+      "screenshot" : "layout-5-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen",
+      "status" : "error",
+      "time" : 1585827687144,
+      "includedTags" : [ "Testing4" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Login page",
+        "place" : {
+          "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+          "lineNumber" : 8
+        },
+        "objects" : [ {
+          "name" : "iphonex",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "height 44px",
+            "errors" : [ "\"iphonex\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"iphonex\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "iphone8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "height 44px",
+            "errors" : [ "\"iphone8\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"iphone8\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-4-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

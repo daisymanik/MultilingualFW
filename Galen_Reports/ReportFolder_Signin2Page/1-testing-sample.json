@@ -1,0 +1,138 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen",
+      "status" : "error",
+      "time" : 1585891444052,
+      "includedTags" : [ "Testing2" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Login page",
+        "place" : {
+          "filePath" : "gSpec/Amazonpasspage3.gspec",
+          "lineNumber" : 8
+        },
+        "objects" : [ {
+          "name" : "pass",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonpasspage3.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "height 31px",
+            "meta" : [ {
+              "from" : {
+                "object" : "pass",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "pass",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "31px",
+              "realDistance" : "31px"
+            } ],
+            "highlight" : [ "pass" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonpasspage3.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "width 296px",
+            "meta" : [ {
+              "from" : {
+                "object" : "pass",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "pass",
+                "edge" : "right"
+              },
+              "expectedDistance" : "296px",
+              "realDistance" : "296px"
+            } ],
+            "highlight" : [ "pass" ]
+          } ]
+        }, {
+          "name" : "sigin",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonpasspage3.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "height 29px",
+            "meta" : [ {
+              "from" : {
+                "object" : "sigin",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "sigin",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "29px",
+              "realDistance" : "29px"
+            } ],
+            "highlight" : [ "sigin" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonpasspage3.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "width 294px",
+            "meta" : [ {
+              "from" : {
+                "object" : "sigin",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "sigin",
+                "edge" : "right"
+              },
+              "expectedDistance" : "294px",
+              "realDistance" : "294px"
+            } ],
+            "highlight" : [ "sigin" ]
+          } ]
+        }, {
+          "name" : "Amazonlogo",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonpasspage3.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "height 44px",
+            "errors" : [ "\"Amazonlogo\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonpasspage3.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"Amazonlogo\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "sigin" : {
+          "area" : [ 536, 239, 294, 29 ]
+        },
+        "pass" : {
+          "area" : [ 535, 185, 296, 31 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

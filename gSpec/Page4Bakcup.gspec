@@ -1,0 +1,61 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+    Allbtn              xpath        //div[@class='nav-search-scope nav-sprite']
+    searchbox			xpath		 //input[@id='twotabsearchtextbox']	
+    searchbtn			xpath		 (//input[@class='nav-input'])[1]	
+    cartlayout			xpath        //div[@id='nav-tools']
+    tdydealslayout      xpath        //div[@id='nav-xshop']
+    dlvrtoindia         xpath        //a[@class='nav-a nav-a-2 a-popover-trigger a-declarative']
+    iphoneresult        xpath        //div[@class='a-section a-spacing-small a-spacing-top-small']
+    sortby              xpath        //span[@id='a-autoid-0-announce']
+    Filtercond          xpath        //div[@id='s-refinements']
+    iphone6s            xpath        (//img[@class='s-image'])[1] 
+    
+= Page: Login page =
+  @on Testing3
+    
+      Allbtn:
+          height 44px
+          width 667px
+          
+      searchbox:
+          height 44px
+          width 667px
+          
+      searchbtn:
+          height 44px
+          width 667px
+       
+      cartlayout:
+          height 44px
+          width 667px          
+          
+      tdydealslayout:
+          height 44px
+          width 667px
+          
+      dlvrtoindia:
+          height 44px
+          width 667px
+          
+      iphoneresult:
+          height 44px
+          width 667px
+          
+      sortby:
+          height 44px
+          width 667px
+          
+      Filtercond:
+          height 44px
+          width 667px          
+   
+      iphone6s:
+          height 44px
+          width 667px     
+          
+
+
+
+   

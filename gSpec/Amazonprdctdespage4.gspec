@@ -1,0 +1,24 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+    Allbtn              xpath        //div[@class='nav-search-scope nav-sprite']
+    searchbox			xpath		 //input[@id='twotabsearchtextbox']	
+    searchbtn			xpath		 (//input[@class='nav-input'])[1]	
+   
+    
+= Page: Login page =
+  @on Testing3
+    
+      Allbtn:
+          height 179px
+          width 273px
+          
+      searchbox:
+          height 54px
+          width 516px
+          
+      searchbtn:
+         height 54px
+         width 516px
+          
+      

@@ -1,0 +1,18 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+    Siginlink				xpath		(//a[@class='nav-a nav-a-2'])[1]
+    Username				xpath		//input[@id='ap_email']
+    contbtn                 xpath		//input[@id='continue']
+    pass					xpath		//input[@id='ap_password']
+    search					xpath		//input[@id='twotabsearchtextbox']
+    searchbtn				xpath		(//input[@class='nav-input'])[1]
+   iphone 6s                xpath        (//span[@class='a-size-medium a-color-base a-text-normal'])[1]
+   Addtolist                xpath        //input[@id='add-to-wishlist-button-submit']
+   cntnshpng                xpath		(//span[@class='w-button-text'])[2]
+   iphone8                  xpath         (//span[@class='kfs-link-text'])[2]
+   popupbtn                 xpath          //button[@class=' a-button-close a-declarative']
+   Addtocart                xpath           //a[@id='nav-cart']
+   checkout                 xpath             (//input[@class='a-button-input'])[1]
+    Title					xpath      //a[@class='nav-logo-link']
+   

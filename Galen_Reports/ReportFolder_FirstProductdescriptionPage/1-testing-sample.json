@@ -1,0 +1,121 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen",
+      "status" : "error",
+      "time" : 1585827740381,
+      "includedTags" : [ "Testing4" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Login page",
+        "place" : {
+          "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+          "lineNumber" : 8
+        },
+        "objects" : [ {
+          "name" : "iphonex",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "height 44px",
+            "errors" : [ "\"iphonex\" height is 85px instead of 44px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "iphonex",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "iphonex",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "44px",
+              "realDistance" : "85px"
+            } ],
+            "highlight" : [ "iphonex" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"iphonex\" width is 85px instead of 667px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "iphonex",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "iphonex",
+                "edge" : "right"
+              },
+              "expectedDistance" : "667px",
+              "realDistance" : "85px"
+            } ],
+            "highlight" : [ "iphonex" ]
+          } ]
+        }, {
+          "name" : "iphone8",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "height 44px",
+            "errors" : [ "\"iphone8\" height is 85px instead of 44px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "iphone8",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "iphone8",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "44px",
+              "realDistance" : "85px"
+            } ],
+            "highlight" : [ "iphone8" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonfirstproductresultpage5.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"iphone8\" width is 85px instead of 667px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "iphone8",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "iphone8",
+                "edge" : "right"
+              },
+              "expectedDistance" : "667px",
+              "realDistance" : "85px"
+            } ],
+            "highlight" : [ "iphone8" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "iphonex" : {
+          "area" : [ 239, 153, 85, 85 ]
+        },
+        "iphone8" : {
+          "area" : [ 403, 153, 85, 85 ]
+        }
+      },
+      "screenshot" : "layout-5-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

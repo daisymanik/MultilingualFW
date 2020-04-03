@@ -1,0 +1,7 @@
+
+
+
+ iphone6simg                xpath      //div[@class='w-asin-info']
+ AddtolistHeader            xpath        //h4[@id='a-popover-header-4']
+ textheader                 xpath       //div[@class='w-popover-header']
+   

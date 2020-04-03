@@ -1,0 +1,106 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects
+  userid_inputbox           id     		 userid_email-name
+  groupid_inputbox          id    		 group_id-name
+  side_panel_text           xpath  		 //div[@id='ember652']
+  scbimg			        xpath  		 //img[@class='logo-full show-in-large-only']
+  chckbox			        xpath  		 //div[@class='checkbox-container']
+  s2b                       xpath  		 //div[@class='straight2bank-logo show-in-large-only']
+  Message	     	        xpath  		 (//button[@class='s2b-button-primary  notification-container'])[1]
+  search                    xpath  		 //input[@placeholder='Search']
+  Quickpmt			        xpath  		 //div[@class='css-1h9c7x5 e1l569lk2']
+  Home_button               xpath   	 //span[text()='HOME']
+  prioritytask_frame        xpath   	 //div[@id='individualTasks']
+  proritymsg_frame          xpath   	 //div[@id='individualMessage']
+  scale_frame               xpath   	 //div[@class='scale-report-download large-4 medium-6 small-12 columns slot']
+  advancesrch_link          xpath   	 //span[text()='advanced search']
+  pendingtask_frame         xpath   	 //div[@class='widget-pending-tasks pending-widget large-4 medium-6 small-12 columns slot']
+  back_button               xpath   	 (//span[text()='BACK'])[1]
+  submit_button             xpath  	     (//span[text()='SUBMIT'])[1]
+  cancel_button             xpath  		 (//span[text()='CANCEL'])[1]
+  import_button             xpath  		 (//span[text()='IMPORT'])[1] 
+  
+= Page: Login page =
+  @on Testing
+  
+      userid_inputbox:
+          height 44px
+          width 667px
+
+      groupid_inputbox:
+          height 4px
+          width 667px
+
+      side_panel_text:
+          height 44px
+          width 667px
+          
+      scbimg:
+          height 30 to 40px
+          width 9 to 100px
+     
+      chckbox:    
+          height 0 to 40px
+          width 9 to 100px
+   
+= Page: Home page =
+  @on Testing1
+  
+      Message:
+          height 40px
+          near search 0 to 645px right
+          width 109px
+          
+      search:
+          height 40px
+          width 350px
+          near Message 0 to 5px left 
+
+      Quickpmt:
+          height 295px
+          width 427px
+          
+      Home_button:
+           height 11px
+           width 29px
+           
+      prioritytask_frame:
+           height 117px
+           width 444px
+          
+      pendingtask_frame:
+          height 231px
+          width 444px
+          
+      proritymsg_frame:
+          height 117px
+          width 444px
+          
+      scale_frame: 
+          height 347px
+          width 444px
+          
+      advancesrch_link:
+          height 17px
+          width 115px
+          
+      back_button:
+          height 12px
+          width 34px
+          
+      submit_button:
+          height 12px
+          width 46px
+          
+      cancel_button:
+          width 444px
+          height 231px
+          
+      import_button:
+          width 444px
+          height 231px
+            
+
+      
+      

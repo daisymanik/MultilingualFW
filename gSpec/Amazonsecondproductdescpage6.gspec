@@ -1,0 +1,19 @@
+ #Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+     textheader          xpath         //h1[@id='title']
+     Addtolistbox        xpath         (//div[@class='a-box-inner'])[1]
+ 	
+    
+= Page: Login page =
+  @on Testing5
+  
+      Addtolistbox:
+          height 0 to 200px
+          width 0 to 300px
+          
+      textheader:
+          height 0 to 100px
+          width 500 to 600px
+          
+ 

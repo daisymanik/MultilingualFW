@@ -1,0 +1,598 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen",
+      "status" : "error",
+      "time" : 1585891399829,
+      "includedTags" : [ "Testing" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Login page",
+        "place" : {
+          "filePath" : "gSpec/Amazonhomepage1.gspec",
+          "lineNumber" : 19
+        },
+        "objects" : [ {
+          "name" : "Allbtn",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "height 40px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Allbtn",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Allbtn",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "40px",
+              "realDistance" : "40px"
+            } ],
+            "highlight" : [ "Allbtn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 24
+            },
+            "name" : "width 48px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Allbtn",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Allbtn",
+                "edge" : "right"
+              },
+              "expectedDistance" : "48px",
+              "realDistance" : "48px"
+            } ],
+            "highlight" : [ "Allbtn" ]
+          } ]
+        }, {
+          "name" : "searchbox",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "height 38px",
+            "meta" : [ {
+              "from" : {
+                "object" : "searchbox",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "searchbox",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "38px",
+              "realDistance" : "38px"
+            } ],
+            "highlight" : [ "searchbox" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "width 650 to 700px",
+            "meta" : [ {
+              "from" : {
+                "object" : "searchbox",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "searchbox",
+                "edge" : "right"
+              },
+              "expectedDistance" : "650 to 700px",
+              "realDistance" : "661px"
+            } ],
+            "highlight" : [ "searchbox" ]
+          } ]
+        }, {
+          "name" : "searchbtn",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "height 40px",
+            "meta" : [ {
+              "from" : {
+                "object" : "searchbtn",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "searchbtn",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "40px",
+              "realDistance" : "40px"
+            } ],
+            "highlight" : [ "searchbtn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "width 45px",
+            "meta" : [ {
+              "from" : {
+                "object" : "searchbtn",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "searchbtn",
+                "edge" : "right"
+              },
+              "expectedDistance" : "45px",
+              "realDistance" : "45px"
+            } ],
+            "highlight" : [ "searchbtn" ]
+          } ]
+        }, {
+          "name" : "cartlayout",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 35
+            },
+            "name" : "height 30 to 90px",
+            "meta" : [ {
+              "from" : {
+                "object" : "cartlayout",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "cartlayout",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "30 to 90px",
+              "realDistance" : "53px"
+            } ],
+            "highlight" : [ "cartlayout" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 36
+            },
+            "name" : "width 100 to 400px",
+            "meta" : [ {
+              "from" : {
+                "object" : "cartlayout",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "cartlayout",
+                "edge" : "right"
+              },
+              "expectedDistance" : "100 to 400px",
+              "realDistance" : "372px"
+            } ],
+            "highlight" : [ "cartlayout" ]
+          } ]
+        }, {
+          "name" : "tdydealslayout",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "height 0 to 40px",
+            "meta" : [ {
+              "from" : {
+                "object" : "tdydealslayout",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "tdydealslayout",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "0 to 40px",
+              "realDistance" : "37px"
+            } ],
+            "highlight" : [ "tdydealslayout" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "width 500 to 900px",
+            "meta" : [ {
+              "from" : {
+                "object" : "tdydealslayout",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "tdydealslayout",
+                "edge" : "right"
+              },
+              "expectedDistance" : "500 to 900px",
+              "realDistance" : "899px"
+            } ],
+            "highlight" : [ "tdydealslayout" ]
+          } ]
+        }, {
+          "name" : "dlvrtoindia",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 43
+            },
+            "name" : "height 30 to 40px",
+            "meta" : [ {
+              "from" : {
+                "object" : "dlvrtoindia",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "dlvrtoindia",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "30 to 40px",
+              "realDistance" : "39px"
+            } ],
+            "highlight" : [ "dlvrtoindia" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 44
+            },
+            "name" : "width 91px",
+            "meta" : [ {
+              "from" : {
+                "object" : "dlvrtoindia",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "dlvrtoindia",
+                "edge" : "right"
+              },
+              "expectedDistance" : "91px",
+              "realDistance" : "91px"
+            } ],
+            "highlight" : [ "dlvrtoindia" ]
+          } ]
+        }, {
+          "name" : "amazonin",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 47
+            },
+            "name" : "height 17px",
+            "meta" : [ {
+              "from" : {
+                "object" : "amazonin",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "amazonin",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "17px",
+              "realDistance" : "17px"
+            } ],
+            "highlight" : [ "amazonin" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "width 636px",
+            "meta" : [ {
+              "from" : {
+                "object" : "amazonin",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "amazonin",
+                "edge" : "right"
+              },
+              "expectedDistance" : "636px",
+              "realDistance" : "636px"
+            } ],
+            "highlight" : [ "amazonin" ]
+          } ]
+        }, {
+          "name" : "homeimage",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 51
+            },
+            "name" : "height 600px",
+            "errors" : [ "\"homeimage\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "width 1500px",
+            "errors" : [ "\"homeimage\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "shopandlang",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 55
+            },
+            "name" : "height 17px",
+            "meta" : [ {
+              "from" : {
+                "object" : "shopandlang",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "shopandlang",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "17px",
+              "realDistance" : "17px"
+            } ],
+            "highlight" : [ "shopandlang" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 56
+            },
+            "name" : "width 200px",
+            "meta" : [ {
+              "from" : {
+                "object" : "shopandlang",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "shopandlang",
+                "edge" : "right"
+              },
+              "expectedDistance" : "200px",
+              "realDistance" : "200px"
+            } ],
+            "highlight" : [ "shopandlang" ]
+          } ]
+        }, {
+          "name" : "shopincountries",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "height 17px",
+            "meta" : [ {
+              "from" : {
+                "object" : "shopincountries",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "shopincountries",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "17px",
+              "realDistance" : "17px"
+            } ],
+            "highlight" : [ "shopincountries" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "width 200px",
+            "meta" : [ {
+              "from" : {
+                "object" : "shopincountries",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "shopincountries",
+                "edge" : "right"
+              },
+              "expectedDistance" : "200px",
+              "realDistance" : "200px"
+            } ],
+            "highlight" : [ "shopincountries" ]
+          } ]
+        }, {
+          "name" : "secureandapay",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 63
+            },
+            "name" : "height 17px",
+            "meta" : [ {
+              "from" : {
+                "object" : "secureandapay",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "secureandapay",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "17px",
+              "realDistance" : "17px"
+            } ],
+            "highlight" : [ "secureandapay" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 64
+            },
+            "name" : "width 200px",
+            "meta" : [ {
+              "from" : {
+                "object" : "secureandapay",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "secureandapay",
+                "edge" : "right"
+              },
+              "expectedDistance" : "200px",
+              "realDistance" : "200px"
+            } ],
+            "highlight" : [ "secureandapay" ]
+          } ]
+        }, {
+          "name" : "estimateimport",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 67
+            },
+            "name" : "height 17px",
+            "meta" : [ {
+              "from" : {
+                "object" : "estimateimport",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "estimateimport",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "17px",
+              "realDistance" : "17px"
+            } ],
+            "highlight" : [ "estimateimport" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 68
+            },
+            "name" : "width 200px",
+            "meta" : [ {
+              "from" : {
+                "object" : "estimateimport",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "estimateimport",
+                "edge" : "right"
+              },
+              "expectedDistance" : "200px",
+              "realDistance" : "200px"
+            } ],
+            "highlight" : [ "estimateimport" ]
+          } ]
+        }, {
+          "name" : "trackyourpage",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 71
+            },
+            "name" : "height 0 to 100px",
+            "meta" : [ {
+              "from" : {
+                "object" : "trackyourpage",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "trackyourpage",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "0 to 100px",
+              "realDistance" : "17px"
+            } ],
+            "highlight" : [ "trackyourpage" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonhomepage1.gspec",
+              "lineNumber" : 72
+            },
+            "name" : "width 0 to 300px",
+            "meta" : [ {
+              "from" : {
+                "object" : "trackyourpage",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "trackyourpage",
+                "edge" : "right"
+              },
+              "expectedDistance" : "0 to 300px",
+              "realDistance" : "200px"
+            } ],
+            "highlight" : [ "trackyourpage" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "tdydealslayout" : {
+          "area" : [ 210, 105, 899, 37 ]
+        },
+        "cartlayout" : {
+          "area" : [ 977, 47, 372, 53 ]
+        },
+        "dlvrtoindia" : {
+          "area" : [ 11, 106, 91, 39 ]
+        },
+        "amazonin" : {
+          "area" : [ 269, 405, 636, 17 ]
+        },
+        "secureandapay" : {
+          "area" : [ 670, 598, 200, 17 ]
+        },
+        "Allbtn" : {
+          "area" : [ 220, 55, 48, 40 ]
+        },
+        "estimateimport" : {
+          "area" : [ 880, 598, 200, 17 ]
+        },
+        "shopincountries" : {
+          "area" : [ 460, 598, 200, 17 ]
+        },
+        "shopandlang" : {
+          "area" : [ 250, 598, 200, 17 ]
+        },
+        "searchbtn" : {
+          "area" : [ 928, 55, 45, 40 ]
+        },
+        "trackyourpage" : {
+          "area" : [ 1090, 598, 200, 17 ]
+        },
+        "searchbox" : {
+          "area" : [ 267, 56, 661, 38 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Testing Sample",
+    "startedAt" : 1585891399829,
+    "endedAt" : 1585891399829,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 24,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 26
+    },
+    "testId" : "1-testing-sample",
+    "failed" : true,
+    "duration" : 0
+  } ]
+}

@@ -1,0 +1,31 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects
+  userid_inputbox           id     		 userid_email-name
+  groupid_inputbox          id    		 group_id-name
+  side_panel_text           xpath  		 //div[@id='ember652']
+  scbimg			        xpath  		 //img[@class='logo-full show-in-large-only']
+  chckbox			        xpath  		 //div[@class='checkbox-container']
+  
+  Page: Login page =
+  @on Testing
+  
+      userid_inputbox:
+          height 44px
+          width 667px
+
+      groupid_inputbox:
+          height 4px
+          width 667px
+
+      side_panel_text:
+          height 44px
+          width 667px
+          
+      scbimg:
+          height 30 to 40px
+          width 9 to 100px
+     
+      chckbox:    
+          height 0 to 40px
+          width 9 to 100px

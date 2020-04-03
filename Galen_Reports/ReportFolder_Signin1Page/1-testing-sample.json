@@ -1,0 +1,259 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen",
+      "status" : "error",
+      "time" : 1585891412621,
+      "includedTags" : [ "Testing1" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Login page",
+        "place" : {
+          "filePath" : "gSpec/Amazonsiginpage2.gspec",
+          "lineNumber" : 10
+        },
+        "objects" : [ {
+          "name" : "Username",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 14
+            },
+            "name" : "height 31px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Username",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Username",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "31px",
+              "realDistance" : "31px"
+            } ],
+            "highlight" : [ "Username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 15
+            },
+            "name" : "width 296px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Username",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Username",
+                "edge" : "right"
+              },
+              "expectedDistance" : "296px",
+              "realDistance" : "296px"
+            } ],
+            "highlight" : [ "Username" ]
+          } ]
+        }, {
+          "name" : "contbtn",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "height 29px",
+            "meta" : [ {
+              "from" : {
+                "object" : "contbtn",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "contbtn",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "29px",
+              "realDistance" : "29px"
+            } ],
+            "highlight" : [ "contbtn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 19
+            },
+            "name" : "width 294px",
+            "meta" : [ {
+              "from" : {
+                "object" : "contbtn",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "contbtn",
+                "edge" : "right"
+              },
+              "expectedDistance" : "294px",
+              "realDistance" : "294px"
+            } ],
+            "highlight" : [ "contbtn" ]
+          } ]
+        }, {
+          "name" : "Amazonlogo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "height 31px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Amazonlogo",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Amazonlogo",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "31px",
+              "realDistance" : "31px"
+            } ],
+            "highlight" : [ "Amazonlogo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "width 103px",
+            "meta" : [ {
+              "from" : {
+                "object" : "Amazonlogo",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Amazonlogo",
+                "edge" : "right"
+              },
+              "expectedDistance" : "103px",
+              "realDistance" : "103px"
+            } ],
+            "highlight" : [ "Amazonlogo" ]
+          } ]
+        }, {
+          "name" : "Sigintext",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 26
+            },
+            "name" : "height 44px",
+            "errors" : [ "\"Sigintext\" height is 37px instead of 44px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "Sigintext",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Sigintext",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "44px",
+              "realDistance" : "37px"
+            } ],
+            "highlight" : [ "Sigintext" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"Sigintext\" width is 296px instead of 667px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "Sigintext",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Sigintext",
+                "edge" : "right"
+              },
+              "expectedDistance" : "667px",
+              "realDistance" : "296px"
+            } ],
+            "highlight" : [ "Sigintext" ]
+          } ]
+        }, {
+          "name" : "Help",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 30
+            },
+            "name" : "height 44px",
+            "errors" : [ "\"Help\" height is 19px instead of 44px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "Help",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Help",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "44px",
+              "realDistance" : "19px"
+            } ],
+            "highlight" : [ "Help" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "gSpec/Amazonsiginpage2.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"Help\" width is 296px instead of 667px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "Help",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Help",
+                "edge" : "right"
+              },
+              "expectedDistance" : "667px",
+              "realDistance" : "296px"
+            } ],
+            "highlight" : [ "Help" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "Amazonlogo" : {
+          "area" : [ 631, 14, 103, 31 ]
+        },
+        "Help" : {
+          "area" : [ 535, 304, 296, 19 ]
+        },
+        "Username" : {
+          "area" : [ 535, 152, 296, 31 ]
+        },
+        "contbtn" : {
+          "area" : [ 536, 198, 294, 29 ]
+        },
+        "Sigintext" : {
+          "area" : [ 535, 84, 296, 37 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

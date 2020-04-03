@@ -1,0 +1,259 @@
+{
+  "testId" : "1-testing-sample",
+  "name" : "Testing Sample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "First Title Report galen TC001",
+      "status" : "error",
+      "time" : 1585891572489,
+      "includedTags" : [ "Testing" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Page: Login page",
+        "place" : {
+          "filePath" : "./gSpec/S2BTestRun.gspec",
+          "lineNumber" : 24
+        },
+        "objects" : [ {
+          "name" : "userid_inputbox",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "height 44px",
+            "meta" : [ {
+              "from" : {
+                "object" : "userid_inputbox",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "userid_inputbox",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "44px",
+              "realDistance" : "44px"
+            } ],
+            "highlight" : [ "userid_inputbox" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 29
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"userid_inputbox\" width is 295px instead of 667px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "userid_inputbox",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "userid_inputbox",
+                "edge" : "right"
+              },
+              "expectedDistance" : "667px",
+              "realDistance" : "295px"
+            } ],
+            "highlight" : [ "userid_inputbox" ]
+          } ]
+        }, {
+          "name" : "groupid_inputbox",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "height 4px",
+            "errors" : [ "\"groupid_inputbox\" height is 44px instead of 4px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "groupid_inputbox",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "groupid_inputbox",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "4px",
+              "realDistance" : "44px"
+            } ],
+            "highlight" : [ "groupid_inputbox" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"groupid_inputbox\" width is 295px instead of 667px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "groupid_inputbox",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "groupid_inputbox",
+                "edge" : "right"
+              },
+              "expectedDistance" : "667px",
+              "realDistance" : "295px"
+            } ],
+            "highlight" : [ "groupid_inputbox" ]
+          } ]
+        }, {
+          "name" : "side_panel_text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 36
+            },
+            "name" : "height 44px",
+            "meta" : [ {
+              "from" : {
+                "object" : "side_panel_text",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "side_panel_text",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "44px",
+              "realDistance" : "44px"
+            } ],
+            "highlight" : [ "side_panel_text" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "width 667px",
+            "errors" : [ "\"side_panel_text\" width is 295px instead of 667px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "side_panel_text",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "side_panel_text",
+                "edge" : "right"
+              },
+              "expectedDistance" : "667px",
+              "realDistance" : "295px"
+            } ],
+            "highlight" : [ "side_panel_text" ]
+          } ]
+        }, {
+          "name" : "scbimg",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "height 30 to 40px",
+            "meta" : [ {
+              "from" : {
+                "object" : "scbimg",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "scbimg",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "30 to 40px",
+              "realDistance" : "38px"
+            } ],
+            "highlight" : [ "scbimg" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 41
+            },
+            "name" : "width 9 to 100px",
+            "meta" : [ {
+              "from" : {
+                "object" : "scbimg",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "scbimg",
+                "edge" : "right"
+              },
+              "expectedDistance" : "9 to 100px",
+              "realDistance" : "100px"
+            } ],
+            "highlight" : [ "scbimg" ]
+          } ]
+        }, {
+          "name" : "chckbox",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 44
+            },
+            "name" : "height 0 to 40px",
+            "meta" : [ {
+              "from" : {
+                "object" : "chckbox",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "chckbox",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "0 to 40px",
+              "realDistance" : "23px"
+            } ],
+            "highlight" : [ "chckbox" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./gSpec/S2BTestRun.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "width 9 to 100px",
+            "meta" : [ {
+              "from" : {
+                "object" : "chckbox",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "chckbox",
+                "edge" : "right"
+              },
+              "expectedDistance" : "9 to 100px",
+              "realDistance" : "23px"
+            } ],
+            "highlight" : [ "chckbox" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "chckbox" : {
+          "area" : [ 810, 452, 23, 23 ]
+        },
+        "userid_inputbox" : {
+          "area" : [ 808, 298, 295, 44 ]
+        },
+        "groupid_inputbox" : {
+          "area" : [ 808, 378, 295, 44 ]
+        },
+        "side_panel_text" : {
+          "area" : [ 808, 556, 295, 44 ]
+        },
+        "scbimg" : {
+          "area" : [ 1221, 30, 100, 38 ]
+        }
+      },
+      "screenshot" : "layout-4-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

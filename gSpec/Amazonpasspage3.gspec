@@ -1,0 +1,22 @@
+ #Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects   
+   pass					xpath		 //input[@id='ap_password']
+   sigin                xpath        //input[@id='signInSubmit']
+   Amazonlogo           xpath        //span[@class='nav-sprite nav-logo-base'] 
+  
+= Page: Login page =
+  @on Testing2
+  
+      pass:
+          height 31px
+          width 296px
+          
+      sigin:
+          height 29px
+          width 294px
+          
+      Amazonlogo:
+          height 44px
+          width 667px
+ 

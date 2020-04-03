@@ -1,0 +1,13 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+  #EnglishLanguage
+  Email_txt					xpath      //label[@class='a-form-label']          
+  password_txt               xpath       (//label[@class='a-form-label'])[1]
+  Homepagercmd_txt           xpath       //p[@class='a-spacing-small truncate-1line a-text-bold']   
+ srchrsltfilter_txt			xpath        (//span[@class='a-size-base a-color-base a-text-bold'])[1]
+ prdctdsc_txt               xpath        //span[@id='productTitle']
+ List_txt                    xpath       //span[@id='WLHUC_result_action_add']
+prdctdsc2_txt 				xpath		  //span[@class='a-list-item'])[1]
+List2_txt                   xpath           //span[@id='WLHUC_result_action_add']
+Shopielst_txt               xpath          //span[@id='profile-list-name']

@@ -1,0 +1,75 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+    Allbtn              xpath         //div[@class='nav-search-scope nav-sprite']
+    searchbox			xpath		  //input[@id='twotabsearchtextbox']	
+    searchbtn			xpath		  (//input[@class='nav-input'])[1]	
+    cartlayout			xpath         //div[@id='nav-tools']
+    tdydealslayout      xpath         //div[@id='nav-xshop']
+    dlvrtoindia         xpath         //a[@class='nav-a nav-a-2 a-popover-trigger a-declarative']
+    amazonin            xpath		  //span[@class='a-size-base a-color-base']
+    homeimage           xpath         (//a[@class='a-link-normal aok-inline-block'])[2]
+    dealsandprom        xpath         (//a[@class='a-link-normal'])[2]
+    shopandlang 		xpath		  (//a[@class='a-link-normal'])[3]
+    shopincountries     xpath         (//a[@class='a-link-normal'])[4]
+    secureandapay       xpath         (//a[@class='a-link-normal'])[5]
+    estimateimport      xpath         (//a[@class='a-link-normal'])[6]
+    trackyourpage       xpath         (//a[@class='a-link-normal'])[7]    
+    
+= Page: Login page =
+  @on Testing
+  
+      Allbtn:
+          height 40px
+          width 48px
+
+      searchbox:
+          height 38px
+          width 650 to 700px
+
+      searchbtn:
+          height 40px
+          width 45px
+          
+      cartlayout:
+          height 30 to 90px
+          width 100 to 400px
+     
+      tdydealslayout:    
+          height 0 to 40px
+          width 500 to 900px
+   
+      dlvrtoindia:
+          height 30 to 40px
+          width 91px
+          
+      amazonin:
+          height 17px
+          width 636px
+           	
+      homeimage:
+          height 600px
+          width 1500px
+          
+      shopandlang:
+           height 17px
+           width 200px
+           
+      shopincountries:
+           height 17px
+           width 200px
+          
+      secureandapay:
+          height 17px
+          width 200px
+          
+      estimateimport:
+          height 17px
+          width 200px
+          
+      trackyourpage: 
+          height 0 to 100px
+          width 0 to 300px
+          
+     
+    

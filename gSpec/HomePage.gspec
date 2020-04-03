@@ -1,0 +1,33 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+    Message					xpath       (//button[@class='s2b-button-primary  notification-container'])[1]
+    search                  xpath       //input[@placeholder='Search']
+    Quickpmt				xpath		//div[@class='css-1h9c7x5 e1l569lk2']
+    pending					xpath		//div[@class='widget-pending-tasks pending-widget large-4 medium-6 small-12 columns slot']
+    priority            	xpath       //div[@class='header section high']
+ 
+= Page: Home page =
+  @on Testing1
+  
+      Message:
+          height 40px
+          near search 0 to 645px right
+          width 109px
+          
+      search:
+          height 44px
+          width 900px
+          near Message 0 to 5px left 
+
+      Quickpmt:
+          height 295px
+          width 427px
+          
+      pending:
+          height 231px
+          width 444px
+          
+      priority:
+          height 40px
+          width 427px

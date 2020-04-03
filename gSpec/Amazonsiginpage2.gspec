@@ -1,0 +1,38 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects  
+    Username		     xpath		   //input[@id='ap_email']
+    contbtn              xpath		   //input[@id='continue']
+    Amazonlogo           xpath         //i[@class='a-icon a-icon-logo']
+    Sigintext            xpath         //h1[@class='a-spacing-small']
+    Help                 xpath         //div[@class='a-row a-expander-container a-expander-inline-container']
+    
+= Page: Login page =
+  @on Testing1
+    
+      Username:
+          height 31px
+          width 296px          
+          
+      contbtn:
+          height 29px
+          width 294px
+          
+      Amazonlogo:
+          height 31px
+          width 103px
+          
+      Sigintext:
+          height 44px
+          width 667px
+               
+      Help:
+          height 44px
+          width 667px
+          
+          
+          
+
+
+
+   

@@ -1,0 +1,19 @@
+ #Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects    
+     iphonex             xpath         (//img[@class='kfs-img'])[1]
+     iphone8             xpath         (//img[@class='kfs-img'])[2]
+    
+    
+= Page: Login page =
+  @on Testing4
+  
+       iphonex:
+          height 44px
+          width 667px
+          
+       iphone8:
+          height 44px
+          width 667px
+          
+      
